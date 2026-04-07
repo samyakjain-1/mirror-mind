@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+**/node_modules
 /.pnp
 .pnp.*
 .yarn/*
@@ -35,6 +36,13 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# generated screenshots / exports
+/screenshots
+
+# script_env deps & lock (source tracked, deps ignored)
+/script_env/node_modules
+/script_env/package-lock.json
 
 # typescript
 *.tsbuildinfo
